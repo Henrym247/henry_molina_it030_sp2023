@@ -1,0 +1,29 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: black;}
+
+body {
+	width: 960px;
+	margin: 0 auto;}
+
+#top{
+	height: 100px;
+	background-color: #eee;}
+
+#liTop{
+	display: inline;
+	padding: 5px;
+	margin: 6px;
+	font-size: 24px;
+	float: left;}
+ 
+#left{
+	width: 620px;
+	background-color: #eee;}
+
+#clickme: hover{
+	background-color: #eee;
+	color: black;
+	border-style: solid;
+	border-color: black;}
