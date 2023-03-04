@@ -3,27 +3,89 @@
 	font-size: 12px;
 	color: black;}
 
+div > p {
+	padding: 5px;
+	margin: 6px;}
+
+ul > li#top {
+	padding: 5px;
+	margin: 6px;}
+
 body {
 	width: 960px;
-	margin: 0 auto;}
+	margin: 0 auto;
+	border: 1px solid black;}
+
+button{
+	background-color: #665544;
+	color: white;
+	position: relative;
+	left: 450px;
+	bottom: 10px;}
 
 #top{
 	height: 100px;
-	background-color: #eee;}
+	background-color: #eee;
+	margin: 10px;
+	border: 1px solid black;}
 
 #liTop{
 	display: inline;
 	padding: 5px;
 	margin: 6px;
-	font-size: 24px;
+	font-size: 36px;
 	float: left;}
  
 #left{
 	width: 620px;
-	background-color: #eee;}
+	float: left;
+	margin: 10px;
+	background-color: #eee;
+	border: 1px solid black;}
 
 #clickme:hover{
-	background-color: #eee;
+	background-color: white;
 	color: black;
-	border-style: solid;
-	border-color: black;}
+	border: 1px solid black;}
+
+.buttonCSS:hover{
+	background-color: white;
+	color: black;
+	border: 1px solid black;}
+
+#right{
+	width: 300px;
+	float: left;
+	marhin 10px
+	border: 1px solid black;}
+
+#coming-soon{
+	display: none;
+	background-color: #eee;
+	width: 250px}
+
+#image{
+	background-color: #eee;
+	height: 250px;
+	border: 1px solid black;
+	margin: 10px;
+	clear: left;}
+
+figure{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	float: left;}
+
+figcaption{
+	width: 200px;}
+
+#footer{
+	height:200px;
+	overflow: scroll;
+	background-color: #eee;
+	margin: 10px;
+	border: 1px solid black;}
+
+.ulright{
+	list-style-type: square;}
