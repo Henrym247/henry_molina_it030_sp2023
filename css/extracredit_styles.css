@@ -20,15 +20,16 @@ body{
   grid-template-areas:
   	"header"
   	"section_content"
-  	"aside_1"
-  	"aside_2"
   	"image_box"
-  	"footer";
+  	"footer"
+  	"aside_1"
+  	"aside_2";
   }
 
 /*---------------------------------------------------------*/
 
 @media only screen and (min-width: 576px) {
+
 	.wrapper {
 		display: grid;
   	gap: 20px;
@@ -38,6 +39,14 @@ body{
 			"section_content section_content" 
 			"image_box aside_2"
 			"footer footer";
+	}
+}
+
+/*-- To hide aside_1 box from width 576px to 767px --------*/
+
+@media only screen and (max-width: 767px) {
+	.aside_1 {
+		display: none;
 	}
 }
 
