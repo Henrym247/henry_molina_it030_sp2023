@@ -34,7 +34,8 @@ body{
 			"header header"
 			"section_content section_content" 
 			"image aside_2"
-			"footer footer";
+			"footer footer"
+			"aside_1 aside_1";
 		}
 }
 
@@ -112,6 +113,4 @@ figure{
 	height: 200px; 
 	float: left;
 }
-
-
 
