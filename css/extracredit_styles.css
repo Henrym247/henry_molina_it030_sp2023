@@ -44,7 +44,7 @@ body{
 
 /*-- To hide aside_1 box from width 576px to 767px --------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 567px) and (max-width: 767px) {
 	.aside_1 {
 		display: none;
 	}
